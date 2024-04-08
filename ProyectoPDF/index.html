@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"
+      type="module"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="formulario_login">
+      <form id="form_login">
+        <label for="nombre">Nombre :</label>
+        <input type="text" name="nombre" id="nombre" />
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="password" />
+        <input type="submit" value="login" />
+      </form>
+    </div>
+    <div id="ficheros" hidden>
+      <div id="misficheros">
+        <ul id="documentosExistentes"></ul>
+      </div>
+
+      <button id="crearFichero">
+        <form id="form_fichero" hidden>
+          <input type="text" name="titulo" id="titulo" />
+          <input type="text" name="autor" id="autor" />
+          <input type="text" name="nombre" id="nombre_documento" />
+          <input type="text" name="apellido1" id="apellido1" />
+          <input type="text" name="apellido2" id="apellido2" />
+          <input type="text" name="telefono id=" telefono />
+          <input type="text" name="correo" id="correo" />
+          <input type="submit" value="login" />
+        </form>
+      </button>
+    </div>
+    <script type="text/javascript" src="jspdf.min.js"></script>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "nombre",
+      "contrasenhia": "nombre"
+    },
+    {
+      "id": 2,
+      "nombre": "nombre",
+      "contrasenhia": "nombre"
+    }
+  ],
+
+  "documetos": [{
+     "idPdf": 1,
+     "idUsuario":1,
+     "rutaPdf":"C:Users/34672DesktopPDF_JSP_pdfRepasoProyectoPDFPDFS",
+     "nombrePdf":"nombrepdf"
+      }
+    ]
+}
